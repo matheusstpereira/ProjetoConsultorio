@@ -1,0 +1,48 @@
+.principallocalizacao{
+  padding: 3em 0;
+  background: #FF8C00;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.principallocalizacao p{
+  text-align: center;
+  margin: 10px 220px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.styled {
+  border: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: darkgrey;
+  background-image: linear-gradient(to top left,
+  rgba(0, 0, 0, .2),
+  rgba(0, 0, 0, .2) 30%,
+  rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+  inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: slategrey;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+  inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.principallocalizacao iframe{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  position: relative;
+  margin: 10px 220px;
+  color: #FFFFFF;
+  font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.principalsobre{
+  padding: 3em 0;
+  background: #FF8C00;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.formatacaotexto{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: relative;
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin: 10px 100px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.principalsobre img{
+  position: absolute;
+  width: 15%;
+  margin: -425px 740px;
+
+}
+
+
+.formatacaotitulo{
+  text-align: center;
+  margin: 10px 540px;
+  color: #FFFFFF;
+  font-size: 18px;
+}

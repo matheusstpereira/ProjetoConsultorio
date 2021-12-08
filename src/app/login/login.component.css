@@ -1,0 +1,66 @@
+.principallogin input{
+  width: 50%;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 17px;
+  padding: 0 100px;
+  border: 1px solid #999;
+  margin: 0 80px;
+}
+
+.principallogin button{
+  width: 60%;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 17px;
+  padding: 0 100px;
+  border: 1px solid #999;
+  margin: 0 150px;
+}
+
+.principallogin{
+  padding: 3em 0;
+  background: #FF8C00;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.principallogin p{
+  text-align: center;
+  margin: 10px 220px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.styled {
+  border: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: darkgrey;
+  background-image: linear-gradient(to top left,
+  rgba(0, 0, 0, .2),
+  rgba(0, 0, 0, .2) 30%,
+  rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+  inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: slategrey;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+  inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.bemvindo{
+  text-align: center;
+  margin: 10px 220px;
+  color: #FFFFFF;
+  font-size: 18px;
+}

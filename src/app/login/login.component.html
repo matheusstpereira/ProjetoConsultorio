@@ -1,0 +1,67 @@
+<header>
+  <div class="toolbar" role="banner">
+    <img width="50" alt="Logo Dente" src="assets/logodente.png"/>
+    <span class="espacamentoEntrar"></span>
+
+    <a routerLink="/home" routerLinkActive="active" style="text-decoration:none">Inicio</a>
+    <div class="spacer"></div>
+    <a routerLink="/agendamento" routerLinkActive="active" style="text-decoration:none">Agendamento</a>
+    <div class="spacer"></div>
+    <a routerLink="/sobre" routerLinkActive="active" style="text-decoration:none">Sobre</a>
+    <div class="spacer"></div>
+    <a routerLink="/localizacao" routerLinkActive="active" style="text-decoration:none">Como Chegar</a>
+    <div class="spacer"></div>
+    <a routerLink="/cadastro" routerLinkActive="active" style="text-decoration:none">Cadastros</a>
+
+    <a class="espacamentoEntrar" routerLink="/login" routerLinkActive="active" style="text-decoration:none">Entrar</a>
+  </div>
+</header>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<main>
+  <section class="principallogin">
+    <p><strong>Login</strong></p>
+    <br/>
+    <button class="favorite styled" *ngIf="(afAuth.authState)" (click)="signIn()">Logar com Conta Google</button>
+    <br/>
+    <br/>
+    <button class="favorite styled" *ngIf="(afAuth.authState)" (click)="signOut()">Deslogar</button>
+    <br/>
+
+    <br/>
+    <div role="main">
+      <div class="bemvindo" *ngIf="afAuth.authState | async as user">
+        Bem vindo {{user.displayName}} !
+      </div>
+    </div>
+
+  </section>
+
+
+</main>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<router-outlet></router-outlet>

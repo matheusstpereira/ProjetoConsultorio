@@ -1,0 +1,15 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.formatacaocadastros {
+  padding: 0 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.formatacaomensagem{
+  color: #FFFFFF;
+}

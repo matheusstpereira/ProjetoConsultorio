@@ -1,0 +1,152 @@
+:host{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 15px;
+}
+
+body
+{
+  margin:0px;
+  padding:0px;
+  background-color: #FFDEAD;
+}
+
+body
+{
+  margin:0px;
+  padding:0px;
+  background-color: #FFDEAD;
+}
+
+.spacer {
+  flex: 2;
+}
+
+.toolbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #FF8C00;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.espacamentoEntrar{
+  position: relative;
+  margin: 0 40px;
+}
+
+a {
+  color: #FF8C00;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: gray;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-color: #FF8C00;
+  bottom: 0;
+}
+
+.copyright{
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin: 120px 0 0;
+}
+
+.principal {
+  padding: 3em 0;
+  background: #FF8C00;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.principal p{
+  text-align: center;
+  margin: 10px 220px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 auto;
+  clear: left;
+  color: #FFFFFF;
+}
+
+.tamanhologofooter {
+  position: absolute;
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  margin: 60px 100px;
+}
+
+.tamanhologoprincipal {
+  position: absolute;
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  margin: 70px 100px;
+}
+
+.localizacaofooter{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 10px 380px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.contatofooter{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 10px 1000px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.facebookfooter{
+  position: absolute;
+  width: 100px;
+  margin: 70px 1400px;
+}
+
+.youtubefooter{
+  position: absolute;
+  width: 100px;
+  margin: 70px 1500px;
+}
+
+.wppfooter{
+  position: absolute;
+  width: 100px;
+  margin: 70px 1600px;
+}
+

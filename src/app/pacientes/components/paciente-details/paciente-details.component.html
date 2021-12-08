@@ -1,0 +1,94 @@
+<div *ngIf="currentPaciente" class="edit-form">
+  <h4>Paciente</h4>
+  <form>
+
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nome"
+        [(ngModel)]="currentPaciente.nome"
+        name="nome"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="cpf">CPF</label>
+      <input
+        type="text"
+        class="form-control"
+        id="cpf"
+        [(ngModel)]="currentPaciente.cpf"
+        name="cpf"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="tel">Telefone</label>
+      <input
+        type="text"
+        class="form-control"
+        id="tel"
+        [(ngModel)]="currentPaciente.tel"
+        name="tel"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        id="email"
+        [(ngModel)]="currentPaciente.email"
+        name="tel"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="dataConsulta">Data Consulta</label>
+      <input
+        type="text"
+        class="form-control"
+        id="dataConsulta"
+        [(ngModel)]="currentPaciente.dataConsulta"
+        name="dataConsulta"
+      />
+    </div>
+
+    <div class="form-group">
+      <label><strong>Status:</strong></label>
+      {{ currentPaciente.published ? "Confirmado" : "Pendente" }}
+    </div>
+  </form>
+
+  <button
+    class="badge badge-primary mr-2"
+    *ngIf="currentPaciente.published"
+    (click)="updatePublished(false)"
+  >
+    Cancelar
+  </button>
+  <button
+    *ngIf="!currentPaciente.published"
+    class="badge badge-primary mr-2"
+    (click)="updatePublished(true)"
+  >
+    Confirmar
+  </button>
+
+  <button class="badge badge-danger mr-2" (click)="deletePaciente()">
+    Excluir
+  </button>
+
+  <button type="submit" class="badge badge-success" (click)="updatePaciente()">
+    Atualizar
+  </button>
+  <p>{{ message }}</p>
+</div>
+
+<div *ngIf="!currentPaciente">
+  <br />
+  <p>Cannot access this Paciente...</p>
+</div>

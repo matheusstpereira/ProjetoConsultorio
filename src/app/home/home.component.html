@@ -1,0 +1,69 @@
+
+<header>
+  <div class="toolbar" role="banner">
+    <img
+      width="50"
+      alt="Logo Dente"
+      src="assets/logodente.png"
+    />
+    <span class="espacamentoEntrar"></span>
+
+
+    <a routerLink="/home" routerLinkActive="active" style="text-decoration:none">Inicio</a>
+    <div class="spacer"></div>
+    <a routerLink="/agendamento" routerLinkActive="active" style="text-decoration:none">Agendamento</a>
+    <div class="spacer"></div>
+    <a routerLink="/sobre" routerLinkActive="active" style="text-decoration:none">Sobre</a>
+    <div class="spacer"></div>
+    <a routerLink="/localizacao" routerLinkActive="active" style="text-decoration:none">Como Chegar</a>
+    <div class="spacer"></div>
+    <a routerLink="/cadastro" routerLinkActive="active" style="text-decoration:none">Cadastros</a>
+
+    <a class="espacamentoEntrar" routerLink="/login" routerLinkActive="active" style="text-decoration:none">Entrar</a>
+  </div>
+</header>
+
+<main>
+  <img class="tamanhologoprincipal" src="assets/logodente.png">
+  <section class="principal">
+    <h2 class="titulo-principal">Clinica Odontologica OdontoMed</h2>
+    <br/>
+    <br/>
+    <p>A OdontoMed é uma rede de franquias de Clínnicas Odontológicas completa, atendendo diversas áreas da odontologia atual e moderna !<br/></p>
+    <p>Somos conhecidos por nossos pacientes, principalmente pelos resultados obtidos por nossos dentistas no restabelecimento dos sorrisos,<br/>através das avançadas técnicas de dentística e implantodontia, utilizando a mais alta tecnologia, com segurança e conforto em todas as etapas do tratamento.</p>
+  </section>
+</main>
+
+<div>
+  <img class="tamanhoimagemconsultorio" src="assets/consultorio.png">
+
+  <section class="horarioatendimento">
+    <p class="horarioatendimentotitulo"><strong>Horario de Atendimento</strong></p>
+    <br/>
+    <p class="horarioatendimentodiassemana"><strong>Segunda Terça Quarta Quinta Sexta - 08:00 as 16:00h</strong></p>
+    <p class="horarioatendimentosabado"><strong>Sabado - 08:00 as 12:00h</strong></p>
+  </section>
+</div>
+
+
+<div class="tratamentos">
+  <p class="tratamentostitulo"><strong>Tratamentos Disponiveis Nesta Unidade</strong></p>
+  <br/>
+  <br/>
+  <pre class="tratamentosdescricoes"><strong>Implantodontia (Implantes)                                                    Saiba Mais</strong></pre>
+  <pre class="tratamentosdescricoes"><strong>Ortodontia Saiba Mais                                                         Saiba Mais</strong></pre>
+  <br/>
+  <pre class="tratamentosdescricoes"><strong>Prótese Dentária Saiba Mais                                                   Saiba Mais</strong></pre>
+  <pre class="tratamentosdescricoes"><strong>Clínico Geral Saiba Mais                                                      Saiba Mais</strong></pre>
+  <br/>
+  <pre class="tratamentosdescricoes"><strong>Odontopediatria Saiba Mais                                                    Saiba Mais</strong></pre>
+  <pre class="tratamentosdescricoes"><strong>Periodontia (Limpeza) Saiba Mais                                              Saiba Mais</strong></pre>
+
+
+</div>
+
+<br/>
+<br/><br/>
+<br/>
+
+<router-outlet></router-outlet>
